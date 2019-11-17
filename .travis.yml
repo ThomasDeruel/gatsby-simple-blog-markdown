@@ -9,6 +9,7 @@ deploy:
   skip-cleanup: true
   github-token: $PERSONAL_TOKEN
   local_dir: public
+  edge: true
   keep-history: true
   on:
     branch: master
