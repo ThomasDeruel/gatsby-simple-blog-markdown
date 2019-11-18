@@ -1,0 +1,28 @@
+@import "../../../styles/colors.scss";
+
+.link {
+    display: block;
+    border-radius: 4px;
+    background: $grey1;
+    padding: 8px 24px;
+    height: 172px;
+    margin-bottom: 24px;
+    transition: background 200ms ease-out;
+    h2 {
+        transition: color 200ms ease-in;
+        color: $black;
+    }
+    p {
+        transition: color 200ms ease-in;
+        color: $grey2;
+    }
+    i {
+        font-weight:lighter;
+    }
+    &:hover {
+        background: $purple;
+        h2,p{
+            color: $white;
+        }
+    }
+}
